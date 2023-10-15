@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeakin Iqra-Freelance Video Editor</title>
+    <link rel="icon" href="img/browserlogo.png" type="image/gif/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel&family=Didact+Gothic&family=Poppins:wght@500;600;700&family=Recursive:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css">
+
+
+</head>
+
+<body>
+
+  <header class="head">
+    <img class="logo" src="img/logo-white.png" alt="">
+    <div class="menu-icon">
+      <i class="bx bx-menu"></i>
+    </div>
+  
+    <ul class="navbar" id="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#aboutme">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+  
+    <section class="hero" id="home">
+        <img class="hero-img" src="img/hero-img.png" alt="">
+        <div class="hero-text">
+            <h1>YEAKIN IQRA</h1>
+            <h5>Freelance Video Editor</h5>
+            <p>Transforming Vision into Stunning Stories</p>
+            <button class="hire-me" onclick="location.href='mailto:iqrartz.media@gmail.com';">Hire Me</button>
+        </div>
+    </section>
+   
+    <section class="about" id="aboutme" id="reveal-container" class="hidden-element">
+            <img class="about-img" src="img/about@0.75x.png" alt="About Me">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>I am a freelance video editor Based in Dhaka,Bangladesh.</p>
+            <p>I've worked with so many wedding & event management agency to <br> make their client memories more vibrant & cinematic.</p>
+            <p>I mostly focused on a style of story telling that people can <br> connect with the vision feel those charms.</p>
+        </div>
+    </section>
+
+    <section class="work-experience">
+        <h2>My Services</h2>
+        <div class="card">
+            <h4>Video Editing</h4>
+            <p>I have 2+ years of experience in wedding & event video editing field.<br> 
+            I believe that I have the expertise and creative flair that you are seeking.</p>
+        </div>
+        <div class="card">
+            <h4>FrontEnd Developer</h4>
+            <p>I am an Entry-Level FrontEnd Developer.<br> 
+            I can make simple websites for you using HTML,CSS & Javascript</p>
+        </div>
+    </section>
+    
+    <section class="work-samples" id="projects">
+        <h2>Projects</h2>
+        <div class="container">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+                <img src="img/project1.png" style="width:100%">
+                <div class="view-project-button"> <a href="https://www.dropbox.com/s/j7pjznj54ossxem/Opu%20bhai%20Promo.mp4?dl=0" target="_blank">
+                    View Project</a>
+                  </div>
+            </div>
+          
+            <div class="mySlides">
+                <img src="img/project2.png" style="width:100%">
+                <div class="view-project-button">
+                  <a href="https://www.dropbox.com/s/lvkavttreeam4b5/Padma%20Bank%20Promo%202.mp4?dl=0"target="_blank">
+                    View Project</a>
+                  </div>
+            </div>
+          
+            <div class="mySlides">
+                <img src="img/project3.png" style="width:100%">
+                <div class="view-project-button">
+                  <a href="https://www.dropbox.com/s/354o751l7w2vzwz/Marium%20%26%20Azad%20WED%20PROMO.mp4?dl=0" target="_blank">
+                    View Project</a>
+                  </div>
+            </div>
+          
+            <div class="mySlides">
+                <img src="img/project4.png" style="width:100%">
+                <div class="view-project-button">
+                  <a href="https://www.dropbox.com/s/0m0q9nva05x7dcm/Oishi%20%26%20Safayet%20Promo.mp4?dl=0" target="_blank">
+                    View Project</a>
+                  </div>
+            </div>
+          
+            <div class="mySlides">
+                <img src="img/project5.png" style="width:100%">
+                <div class="view-project-button">
+                  <a href="https://www.dropbox.com/s/4bxf3iq4a94k00l/SHad%20%26%20Ria%20Holud%20Promo.mp4?dl=0" target="_blank">
+                    View Project</a>
+                  </div>
+            </div>
+          
+            <div class="mySlides">
+                <img src="img/project6.png" style="width:100%">
+                <div class="view-project-button">
+                  <a href="https://www.dropbox.com/s/cng34illnvg9sn1/Forhad%20%26%20Trina%20Promo.mp4?dl=0" target="_blank">
+                    View Project</a>
+                  </div>
+            </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+            <!-- Image text -->
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+          
+            <!-- Thumbnail images -->
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="img/project1.png" style="width:100%" onclick="currentSlide(1)" alt="Apu and Eva, a couple deeply in love, entrusted me with creating their special moments on their wedding day.">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="img/project2.png" style="width:100%" onclick="currentSlide(2)" alt="BAMLCO Conference 2023 by Padma Bank">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="img/project3.png" style="width:100%" onclick="currentSlide(3)" alt="Marium and Azad.It was an absolute pleasure to create a mesmerizing wedding promo video for them.">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="img/project4.png" style="width:100%" onclick="currentSlide(4)" alt="Oishi and Safayet, allowed me to weave their enchanting love story into a captivating wedding promo video.">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="img/project5.png" style="width:100%" onclick="currentSlide(5)" alt="Shad and Riya,Witnessing their happiness and satisfaction with the final result was the ultimate reward for my craft.">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="img/project6.png" style="width:100%" onclick="currentSlide(6)" alt="Forhad & Trina, It was an honor to create a timeless keepsake that showcased their love story.">
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="brands">
+        <h3>Brands I've worked with</h3>
+        <div class="brand-images">
+        <div class="mybrands">
+          <img src="img/Art Book ok.png ii.png">
+        </div>
+        <div class="mybrands">
+          <img src="img/bank_logo.png">
+        </div>
+        <div class="mybrands">
+          <img src="img/music_logo.png">
+        </div>
+        </div>
+    </section>
+ 
+   <section class="frontend">
+    <h3>Web Projects</h3>
+<div class="card-container">
+<div class="web">
+	<div class="glass-card">
+		<div class="title">Weather App</div>
+		<div class="subtitle">Practicing Js Fetch API here</div>
+		  <button class="glass-button"><a href="https://yeakiniqra.github.io/WindWizard/" target="_blank">Live Preview</a></button>
+	</div>
+</div>
+</div>
+<div class="card-container">
+<div class="web">
+	<div class="glass-card">
+		<div class="title">Quote Generator App</div>
+		<div class="subtitle">Practicing Js Fetch API here</div>
+		  <button class="glass-button"><a href="https://yeakiniqra.github.io/Quote-app/" target="_blank">Live Preview</a></button>
+	</div>
+</div>
+</div>
+<div class="card-container">
+<div class="web">
+	<div class="glass-card">
+		<div class="title">TO-DO LIST App</div>
+		<div class="subtitle">Practicing JS HERE</div>
+		  <button class="glass-button"><a href="https://yeakiniqra.github.io/To-DoApp/" target="_blank">Live Preview</a></button>
+	</div>
+</div>
+</div>
+<div class="card-container">
+<div class="web">
+	<div class="glass-card">
+		<div class="title">Wallpaper Download Website</div>
+		<div class="subtitle">HTML,JS,CSS PROJECT</div>
+		  <button class="glass-button"><a href="https://yeakiniqra.github.io/DreamScapes/" target="_blank">Live Preview</a></button>
+	</div>
+</div>
+</div>
+
+   </section>
+
+
+
+    <section class="contactme" id="contact">
+      <div class="contact-container">
+        <div class="form-container">
+      <h2>Contact Me</h2>
+      <p>I'd Love to Hear form You</p>
+      <form class="contact-form"
+      action="https://formspree.io/f/xnqkaqql"
+      method="POST"
+    >
+      <label for="email" class="feedback-label">
+        Your Email:
+        <input type="email" class="feedback-input" name="email">
+      </label>
+      <label for="message" class="feedback-label">
+        Your Message:
+        <textarea name="message" class="feedback-input"></textarea>
+      </label>
+      <!-- your other form fields go here -->
+      <button type="submit">SUBMIT</button>
+    </form>
+  </div>
+  </div>
+</section>
+    
+    <footer>
+      <div class="footer-content">
+          <div class="social-media">
+            <h2>Get in touch</h2>
+            <ul class="social-icons">
+              <li><a href="https://www.facebook.com/yeakin.iqra" target="_blank"><i class="bx bxl-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com/yeakin.iqra/" target="_blank"><i class="bx bxl-instagram"></i></a></li>
+              <li><a href="https://www.youtube.com/@yeakiniqra/featured" target="_blank"><i class="bx bxl-youtube"></i></a></li>
+              <li><a href="https://github.com/yeakiniqra" target="_blank"><i class="bx bxl-github"></i></a></li>
+            </ul>
+          </div>
+        
+        <div class="footer-contact">
+          <ul>
+            <li><i class="bx bx-envelope"></i>iqrartz.media@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 IQRARTZ. All rights reserved.</p>
+      </div>
+    </footer>
+    
+    
+
+       <!-- Link to the JavaScript file -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="main.js"></script>
+      
+</body>
+
+</html>
